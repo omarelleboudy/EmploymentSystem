@@ -1,10 +1,10 @@
-## Prerequisites:
+# Prerequisites:
 -	.NET 7
 -	MS SQL Server
 
-## How To Run:
+# How To Run:
 
-# This guide assumes that all required NuGET packages are already installed. If you are not sure, run a Clean and Rebuild before starting.
+## This guide assumes that all required NuGET packages are already installed. If you are not sure, run a Clean and Rebuild before starting.
 
 1-	Make sure SQL Server is set up and ready for new databases instances, and set up your connection string in appsettings.
 2-	For Local Testing, keep in mind that the connection strings require “Encrypted=false;” or Entity Framework Core may not be able to automatically create a database.
